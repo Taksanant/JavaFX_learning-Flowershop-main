@@ -1,0 +1,167 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 8, 2023, 2:28:48 AM
+    Author     : Acer
+*/
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+    
+}
+
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cusor:hand;
+}
+.close:hover{
+    -fx-background-color: #ff4653;   
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cusor:hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;   
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #37306B, #66347F);
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cusor:hand;
+    -fx-alignment: center-left;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+
+.logout{
+    -fx-background-color: #37306B;
+    -fx-background-radius: 20px;
+    -fx-cusor:hand;
+}
+.logout:hover{
+    -fx-background-color: #463c96;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgb(0,0,0.7), 5, 0, 0, 0);  
+}
+
+.card{
+    -fx-background-color: linear-gradient(to right, #66347F, #9E4784);
+    -fx-background-radius: 4px;
+}
+
+.textfield{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-border-color: linear-gradient(to bottom right, #37306B, #66347F);
+    -fx-border-width: .4px;
+}
+.textfield:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: .1px;
+}
+
+.add-btn{
+    -fx-background-color: #2172a1;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.add-btn:hover{
+    -fx-background-color: #3a9cd4;
+}
+
+.update-btn{
+    -fx-background-color: #22c489;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.update-btn:hover{
+    -fx-background-color: #45ecaf;
+}
+
+.clear-btn{
+    -fx-background-color: #b242cf;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.clear-btn:hover{
+    -fx-background-color: #d378ec;
+}
+
+.delete-btn{
+    -fx-background-color: #d94a81;
+    -fx-background-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.delete-btn:hover{
+    -fx-background-color: #f276a7;
+}
+
+.search{
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius: 4px;
+    -fx-border-color: linear-gradient(to bottom right, #37306B, #66347F);
+    -fx-border-radius: 4px;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+    -fx-padding: 0px 0px 0px 28px;
+    -fx-border-width: .8px;
+}
+.search:focused{
+    -fx-background-color: #fff;
+    -fx-border-width: 1.8px;
+}
+
+.table-view{
+    -fx-border-color: linear-gradient(to bottom right, #37306B, #66347F);
+    -fx-border-width: 2px;
+    -fx-padding: 0px;
+    -fx-border-radius: 8px;
+    -fx-background-color: transparent;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color:  linear-gradient(to bottom right, #37306B, #66347F);
+    -fx-background-radius: 8px 8px 0px 0px;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+}
